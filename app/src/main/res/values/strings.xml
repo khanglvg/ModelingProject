@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SoftwareArchitecture</string>
+    <string name="action_settings">Settings</string>
+    <string name="model_view_controller">Model-View-Controller</string>
+    <string name="model_view_presenter">Model-View-Presenter</string>
+    <string name="model_view_viewmodel">Model-View-ViewModel</string>
+
+    <string name="authentication_label">Authentication with Firebase</string>
+    <string name="create_room_label">Create room</string>
+    <string name="existing_room_label">Enter existing</string>
+    <string name="room_dialog_heading">Enter room name</string>
+    <string name="dialog_room_info">Name of the room is your token by which you can connect with the person who entered the same room name as your</string>
+    <string name="text_submit">Submit</string>
+    <string name="success_message_authentication">Authentication is successful</string>
+    <string name="chats_heading">Messages</string>
+    <string name="hint_room_name">Room name</string>
+    <string name="hint_typing">Type here</string>
+    <string name="send_text">Send</string>
+    <string name="text_waiting_for_auth">Authenticating, this may take 1 minute</string>
+    <string name="sender_s_name">Sender\'s Name</string>
+
+    <string name="MVC">Model-View-Controller</string>
+    <string name="MVP">Model-View-Presenter</string>
+    <string name="MVVM">Model-View-ViewModel</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="anonymous_login">Sign-in with anonymous</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign up</string>
+    <string name="do_not_account">Did not have an account?</string>
+
+</resources>

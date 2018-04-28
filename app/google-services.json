@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "884567851446",
+    "firebase_url": "https://modelingproject-55b81.firebaseio.com",
+    "project_id": "modelingproject-55b81",
+    "storage_bucket": "modelingproject-55b81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884567851446:android:c684b8987d110c72",
+        "android_client_info": {
+          "package_name": "com.cauvong.softwarearchitecture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884567851446-vo73k2962154bjj7ljtmo65nln7das47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cauvong.softwarearchitecture",
+            "certificate_hash": "dab206d1064c1970f850560f357c358997807757"
+          }
+        },
+        {
+          "client_id": "884567851446-5kbihnhpe0fdenr86r2lhsiaga3on7m0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTlDmtF0UMoljGvJldgII6YfWkHmEHUTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884567851446-5kbihnhpe0fdenr86r2lhsiaga3on7m0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

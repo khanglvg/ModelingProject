@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.cauvong.softwarearchitecture.MainActivity"
+    android:background="#33000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName: "
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_marginStart="10dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_mvc"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:text="@string/model_view_controller"
+            android:textSize="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_theme"
+            android:onClick="goToMVC"/>
+
+        <Button
+            android:id="@+id/btn_mvp"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/model_view_presenter"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_theme"
+            android:onClick="goToMVP"/>
+
+        <Button
+            android:id="@+id/btn_mvvm"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:text="@string/model_view_viewmodel"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_theme"
+            android:onClick="goToMVVM"/>
+    </LinearLayout>
+
+
+</LinearLayout>
